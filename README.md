@@ -1,0 +1,3 @@
+# Implicit Resolution Bug in Scala
+
+This example demonstrates a common issue encountered when working with implicit type classes in Scala, specifically concerning the `Ordered` type class.  The code includes a `MyClass` that utilizes an implicit `Ordered` instance to print the value. While the example works with `Int`,  it highlights the need for an explicit implicit `Ordering[String]` to work with Strings.
